@@ -1,0 +1,39 @@
+{
+  "name": "saas-qa-automation-framework",
+  "version": "1.0.0",
+  "description": "Production-grade QA Automation Framework using Playwright and TypeScript for SaaS platforms",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --project=chromium",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "test:parallel": "playwright test --workers=4",
+    "test:report": "playwright test --reporter=allure-playwright,line",
+    "report:generate": "allure generate allure-results -o allure-report --clean",
+    "report:open": "allure open allure-report",
+    "lint": "eslint src tests",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\""
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "qa",
+    "typescript"
+  ],
+  "author": "QA Automation Architect",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.43.0",
+    "@types/node": "^20.12.7",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^3.0.0-beta.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.0.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  }
+}
