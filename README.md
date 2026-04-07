@@ -1,10 +1,8 @@
-# Playwright Automation Architecture 🚀
+# Playwright Automation Framework 🚀
 
-[![Playwright Tests](https://github.com/yourusername/reponame/actions/workflows/playwright.yml/badge.svg)](https://github.com/yourusername/reponame/actions)
-[![Allure Report](https://img.shields.io/badge/Allure%20Report-View-blue)](https://yourusername.github.io/reponame)
-[![Playwright](https://img.shields.io/badge/Playwright-1.43-green)](https://playwright.dev/)
+A scalable UI + API automation framework built using Playwright (TypeScript).
 
-A production-grade, highly scalable UI and API automation framework built with **Playwright (TypeScript)**. Designed to demonstrate enterprise-level architecture directly applicable to modern SaaS startups.
+This project is something I built to simulate how testing is actually handled in real SaaS products — not just basic test scripts, but a structured, maintainable system.
 
 ## 🎯 Business Value
 Why this framework is valuable for high-velocity SaaS engineering teams:
